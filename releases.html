@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>ASXCENSION</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+</head>
+<body>
+<div class="navBar">
+  <div id="sidebar">
+    <ul>
+      <li><a href="releases.html" title="releases" target="_blank">releases</a></li>
+      <li><a href="http://twitter.com/asxcension" title="twitter" target="_blank">twitter</a></li>
+      <li><a href="http://instagram.com/asxcension" title="instagram" target="_blank">instagram</a></li>
+      <li><a id="bottom" href="mailto:info@asxcension.com" title="contact us">contact us</a></li>
+    </ul>
+    <div id="sidebar-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="logoNav">
+    <a href="index.html" title="home"><img class="logo" src="images/logo.png" alt="asxcension-home"></a>
+  </div>
+</div>
+
+    <table class="asx-releases">
+      <tr>
+        <th>asxcension</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <img src="images/one-artwork.png" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://t.co/YvDgKxX2R5">One EP</a></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <img src="images/done-to-me-artwork.jpeg" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://open.spotify.com/artist/6PpAfZpIwIQEF3Gvx1vawR?si=uMYNoCyJSPiZKrEOkmn6wA">Done To Me Ft. Nadia Laytoya</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table class="pj-releases">
+      <tr>
+        <th>parry j</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <img src="images/stay-with-me-artwork.jpg" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://open.spotify.com/album/7gmlTw9drnCozMZwtTMFmg">Stay With Me</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table class="celestial-releases">
+      <tr>
+        <th>celestial</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <img src="images/wander-artwork.png" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://levelmusic.lnk.to/GYawHs">Wander EP</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('#sidebar-btn').click(function(){
+      $('#sidebar').toggleClass('visible');
+    });
+  });
+  </script>
+
+</body>
+</html>

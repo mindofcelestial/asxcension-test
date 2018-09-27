@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<title>ASXCENSION</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="navBar">
+  <div id="sidebar">
+    <ul>
+      <li><a href="releases.html" title="releases" target="_blank">releases</a></li>
+      <li><a href="http://twitter.com/asxcension" title="twitter" target="_blank">twitter</a></li>
+      <li><a href="http://instagram.com/asxcension" title="instagram" target="_blank">instagram</a></li>
+      <li><a href="mailto:info@asxcension.com" title="contact us">contact us</a></li>
+    </ul>
+    <div id="sidebar-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="logoNav">
+    <a href="index.html" title="home"><img class="logo" src="images/logo.png" alt="asxcension-home"></a>
+  </div>
+</div>
+
+<div class="mobile-nav" id="myMobilenav">
+<div id="myLinks">
+  <a href="index.html">home</a>
+  <a href="http://twitter.com/asxcension">twitter</a>
+  <a href="http://instagram.com/asxcension">instagram</a>
+  <a href="mailto:info@asxcension.com">contact</a>
+</div>
+
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+</a>
+</div>
+
+<div class="table">
+    <table class="asx-releases">
+      <tr>
+        <th>asxcension</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <img src="images/one-artwork.png" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://t.co/YvDgKxX2R5">One EP</a></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <img src="images/done-to-me-artwork.jpeg" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://open.spotify.com/artist/6PpAfZpIwIQEF3Gvx1vawR?si=uMYNoCyJSPiZKrEOkmn6wA">Done To Me Ft. Nadia Laytoya</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table class="pj-releases">
+      <tr>
+        <th>parry j</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <img src="images/stay-with-me-artwork.jpg" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://open.spotify.com/album/7gmlTw9drnCozMZwtTMFmg">Stay With Me</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table class="celestial-releases">
+      <tr>
+        <th>celestial</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <img src="images/wander-artwork.png" height="320px" width="320px"/>
+            <div class="overlay">
+              <div class="text"><a href="https://levelmusic.lnk.to/GYawHs">Wander EP</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+    <div class="mobile-releases">
+      <p>releases</p>
+      <div class="mobile-text">
+        <p>asxcension</p>
+      </div>
+      <div class="cover-releases">
+        <a href="https://t.co/YvDgKxX2R5"><img src="images/one-artwork.png" height="320px" width="320px"/></a>
+        <a href="https://open.spotify.com/artist/6PpAfZpIwIQEF3Gvx1vawR?si=uMYNoCyJSPiZKrEOkmn6wA"><img id="two" src="images/done-to-me-artwork.jpeg" height="320px" width="320px"/></a>
+      </div>
+
+      <div class="mobile-text">
+        <p>parry j</p>
+      </div>
+      <div class="cover-releases">
+        <a href="https://open.spotify.com/album/7gmlTw9drnCozMZwtTMFmg"><img src="images/stay-with-me-artwork.jpg" height="320px" width="320px"/></a>
+      </div>
+
+      <div class="mobile-text">
+        <p>celestial</p>
+      </div>
+      <div class="cover-releases">
+        <a href="https://levelmusic.lnk.to/GYawHs"><img src="images/wander-artwork.png" height="320px" width="320px"/></a>
+      </div>
+    </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('#sidebar-btn').click(function(){
+      $('#sidebar').toggleClass('visible');
+    });
+  });
+  </script>
+
+  <script>
+function myFunction() {
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+x.style.display = "none";
+} else {
+x.style.display = "block";
+}
+}
+</script>
+
+</body>
+</html>
